@@ -22,5 +22,5 @@ end
 
 group :development do
   gem 'pry-nav'
-  gem 'chef', '~> 13.0'
+  gem 'chef', '~> 14.1.1'
 end
