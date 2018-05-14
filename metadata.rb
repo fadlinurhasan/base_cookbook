@@ -8,8 +8,8 @@ version '0.1.0'
 supports 'ubuntu'
 chef_version '>= 12.14' if respond_to?(:chef_version)
 
-issues_url 'https://github.com/BaritoLog/base-cookbook/issues'
-source_url 'https://github.com/BaritoLog/base-cookbook'
+issues_url 'https://github.com/BaritoLog/base_cookbook/issues'
+source_url 'https://github.com/BaritoLog/base_cookbook'
 
 depends 'apt'
 depends 'limits'
