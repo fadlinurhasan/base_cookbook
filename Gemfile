@@ -21,6 +21,10 @@ group :kitchen_vagrant do
 end
 
 group :development do
-  gem 'pry-nav'
   gem 'chef', '~> 14.1.1'
+  gem 'guard'
+  gem 'guard-foodcritic'
+  gem 'guard-kitchen'
+  gem 'guard-rubocop'
+  gem 'pry-nav'
 end
