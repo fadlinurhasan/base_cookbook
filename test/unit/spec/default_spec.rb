@@ -18,10 +18,6 @@ describe 'base_cookbook::default' do
     expect(chef_run).to include_recipe('base_cookbook::_limits')
   end
 
-  it 'should run users recipe' do
-    expect(chef_run).to include_recipe('base_cookbook::_users')
-  end
-
   it 'should run sysctl recipe' do
     expect(chef_run).to include_recipe('base_cookbook::_sysctl')
   end
