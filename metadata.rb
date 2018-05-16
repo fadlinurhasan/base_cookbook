@@ -6,7 +6,7 @@ description 'Base Cookbook'
 long_description 'Base cookbook for all other cookbooks of baritolog'
 version '0.1.0'
 supports 'ubuntu'
-chef_version '>= 12.14' if respond_to?(:chef_version)
+chef_version '>= 14.1.1' if respond_to?(:chef_version)
 
 issues_url 'https://github.com/BaritoLog/base_cookbook/issues'
 source_url 'https://github.com/BaritoLog/base_cookbook'
