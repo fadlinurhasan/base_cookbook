@@ -1,6 +1,9 @@
 require_relative 'spec_helper'
 
 describe 'base_cookbook::default' do
+  before do
+    stub_command("which sudo").and_return('/usr/bin/sudo')
+  end
   let(:chef_run) do
     ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '16.04')
                         .converge(described_recipe)
